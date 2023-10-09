@@ -1,0 +1,119 @@
+:root {
+  --font-family-primary: "Roboto Regular";
+  --font-family-secondary: "Roboto Black";
+
+  --font-size-primary: 48px;
+  --font-size-secondary: 21px;
+  --font-size-terciary: 36px;
+
+  --color-bg-primary: #23424a;
+  --color-bg-secondary: #136c72;
+  --color-bg-terciary: #38cfd9;
+  --color-text-primary: white;
+  --color-text-secondary: #3a3a3a;
+  --color-text-terciary: #87629a;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-family-primary);
+}
+
+/* h1 {
+  font-size: 3rem;
+} */
+
+.body__container {
+  background-color: var(--color-bg-primary);
+}
+.container__description {
+  margin-bottom: 3em;
+}
+
+.container {
+  margin: 0 auto;
+  background-color: #23424a;
+  color: #fff;
+  padding: 7rem 7rem;
+  /* max-width: 1600px; */
+}
+
+.container__title {
+  font-size: var(--font-size-primary);
+}
+.container__description {
+  width: 50%;
+  font-size: var(--font-size-secondary);
+}
+
+.container__button {
+  display: inline-block;
+  background-color: #38cfd9;
+  padding: 0.8em 2em;
+  border-radius: 100px;
+  text-decoration: none;
+  color: var(--color-text-secondary);
+  font-weight: 900;
+}
+
+.container__button:hover,
+.container__button:focus {
+  opacity: 0.75;
+}
+
+.section2 {
+  background-color: white;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.section2__item {
+  width: 400px;
+  /* max-width: 1600px; */
+}
+.section2__title {
+  color: var(--color-text-terciary);
+  font-size: var(--font-size-terciary);
+  display: flex;
+  justify-content: center;
+}
+
+.section2__description {
+  color: var(--color-text-secondary);
+  font-size: var(--font-size-secondary);
+  font-weight: 500;
+  text-align: center;
+}
+
+.section3 {
+  display: flex;
+  justify-content: center;
+  background-color: var(--color-bg-secondary);
+  padding: 5rem 3rem;
+  gap: 3rem;
+}
+
+.section3__item {
+  width: 600px;
+  /* max-width: 1600px; */
+}
+.section3__title {
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+  color: white;
+  font-size: var(--font-size-terciary);
+}
+
+.section3__description {
+  color: white;
+  font-size: var(--font-size-secondary);
+}

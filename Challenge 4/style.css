@@ -1,0 +1,118 @@
+:root {
+  --font-family-primary: "Roboto Light";
+  --font-family-secondary: "Playfair Display Black";
+  --font-family-terciary: "Roboto Regular";
+
+  --font-size-primary: 18px;
+  --font-size-secondary: 60px;
+  --font-size-terciary: 36px;
+  --font-size-cuarta: 21px;
+
+  --color-bg-primary: #f3eed9;
+  --color-bg-secondary: #824936;
+  --color-bg-terciary: #222c2a;
+}
+
+*,
+::before,
+::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  max-width: 1128px;
+  margin: 0 auto;
+  border: 2px solid red;
+}
+
+.section-primary {
+  background-color: var(--color-bg-primary);
+  min-height: 660px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.section-primary__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.section-primary__subtitulo {
+  margin: 0 auto;
+  font-family: var(--font-family-primary);
+  font-size: var(--font-size-primary);
+  letter-spacing: 0.4em;
+  margin-bottom: 0.5em;
+}
+
+.section-primary__titulo {
+  font-family: var(--font-family-secondary);
+  font-size: var(--font-size-secondary);
+  color: var(--color-bg-secondary);
+  text-align: center;
+  margin: 0 auto;
+}
+
+.designs {
+  display: flex;
+  flex-direction: column;
+  min-height: 350px;
+  justify-content: center;
+}
+
+.designs__container {
+  display: flex;
+  flex-direction: column;
+}
+.designs__title {
+  margin: 0 auto;
+  margin-bottom: 1em;
+  font-family: var(--font-family-terciary);
+  font-size: var(--font-size-terciary);
+  color: var(--color-bg-secondary);
+}
+
+.designs__text-container {
+  display: flex;
+}
+.designs__text {
+  max-width: 380px;
+}
+
+.designs__text + .designs__text {
+  margin-left: 1em;
+}
+.servicios {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  gap: 1em;
+}
+.servicios-a {
+  background-color: var(--color-bg-terciary);
+  display: flex;
+  /* flex-direction: row; */
+}
+
+.servicios-text__container {
+  max-width: 380px;
+}
+
+.servicios__title {
+  color: white;
+}
+.servicios__description {
+  color: white;
+}
+.servicios-b {
+  background-color: var(--color-bg-secondary);
+  display: flex;
+  margin: 0 auto;
+}
