@@ -22,13 +22,14 @@
 }
 
 img {
-  max-width: 100%;
+  max-width: 380px;
+  border: 0;
 }
 
 .container {
+  width: 100%;
   max-width: 1128px;
   margin: 0 auto;
-  border: 2px solid red;
 }
 
 .section-primary {
@@ -70,6 +71,7 @@ img {
 .designs__container {
   display: flex;
   flex-direction: column;
+  width: 100%;
 }
 .designs__title {
   margin: 0 auto;
@@ -81,6 +83,7 @@ img {
 
 .designs__text-container {
   display: flex;
+  justify-content: center;
 }
 .designs__text {
   max-width: 380px;
@@ -92,8 +95,10 @@ img {
 .servicios {
   display: flex;
   flex-direction: row;
+  justify-content: center;
   margin: 0 auto;
-  gap: 1em;
+  gap: 2em;
+  padding: 4em;
 }
 .servicios-a {
   background-color: var(--color-bg-terciary);
@@ -103,10 +108,13 @@ img {
 
 .servicios-text__container {
   max-width: 380px;
+  display: flex;
+  flex-direction: column;
 }
 
 .servicios__title {
   color: white;
+  margin-bottom: 1em;
 }
 .servicios__description {
   color: white;
