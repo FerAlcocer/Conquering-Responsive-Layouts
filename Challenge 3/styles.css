@@ -42,20 +42,14 @@ body {
   flex-direction: row;
   gap: 1rem;
   width: 100%;
-  border: 2px solid red;
 }
 
 .nav__ul + .nav__ul {
-  margin-right: 0;
-  border: 2px solid blue;
-}
-
-.derecha {
-  margin-right: 0;
+  margin-left: auto;
   justify-content: end;
 }
+
 .ul__li {
-  border: 2px solid red;
   color: white;
   display: flex;
 
@@ -163,7 +157,15 @@ body {
   font-size: var(--font-size-secondary);
 }
 
-@media (max-width: 600px) {
+@media (max-width: 700px) {
+  .nav__ul {
+    display: none;
+  }
+
+  .nav__logo {
+    width: ;
+  }
+
   .container {
     padding: 0rem;
   }
