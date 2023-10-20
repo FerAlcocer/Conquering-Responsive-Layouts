@@ -33,6 +33,15 @@ img {
   /* added for nav-toggle positioning */
   position: relative;
 }
+
+.align {
+  position: relative;
+  padding: 0.2em;
+}
+.logo {
+  margin: 0 auto;
+  display: block;
+}
 .nav {
   visibility: hidden;
   height: 0;
@@ -124,9 +133,61 @@ img {
 
 .hero {
   background: var(--color-bg-secondary);
+  padding: 4rem 0;
 }
 
 .hero__title {
   font-family: var(--font-family-primary);
   font-size: 3rem;
+  color: var(--color-text-primary);
+  margin-bottom: 2rem;
+}
+
+.title--color-secundario {
+  color: var(--color-text-secondary);
+}
+
+.hero__description {
+  font-family: var(--font-family-secondary);
+  font-size: 24px;
+  color: var(--color-bg-terciary);
+  display: flex;
+  flex-direction: column;
+}
+
+.button--gold {
+  margin-top: 2em;
+  background: var(--color-text-secondary);
+  text-decoration: none;
+  color: var(--color-text-primary);
+  text-transform: uppercase;
+  font-family: var(--font-family-primary);
+  font-size: 24px;
+  text-align: center;
+}
+
+.cualidades {
+  background: #edeae2;
+  display: flex;
+  flex-direction: column;
+  padding: 4rem 0;
+}
+
+.cualidades__item {
+  gap: 1rem;
+}
+
+.cualidades__title {
+  color: var(--color-text-secondary);
+  font-family: var(--font-family-primary);
+  font-size: 30px;
+}
+
+.cualidades__description {
+  font-family: var(--font-family-secondary);
+  font-size: 18px;
+}
+
+.cualidades__item + .cualidades__item {
+  margin-top: 3rem;
 }
