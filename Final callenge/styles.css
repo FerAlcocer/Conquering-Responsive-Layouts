@@ -191,3 +191,50 @@ img {
 .cualidades__item + .cualidades__item {
   margin-top: 3rem;
 }
+
+.primary-content {
+  padding: 3rem 0;
+}
+
+.primary-content__title {
+  color: var(--color-text-secondary);
+  font-family: var(--font-family-primary);
+  font-size: 24px;
+}
+
+.primary-content__text {
+  font-family: var(--font-family-secondary);
+  font-size: 18px;
+  margin: 2rem 0;
+}
+
+.sidebar__item {
+  background: var(--color-bg-secondary);
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+.sidebar__item + .sidebar__item {
+  margin-top: 2.5rem;
+}
+
+.sidebar__title {
+  color: var(--color-text-primary);
+  margin-bottom: 1rem;
+  font-family: var(--font-family-primary);
+  font-size: 30px;
+}
+
+.sidebar__text {
+  color: var(--color-text-primary);
+  font-family: var(--font-family-secondary);
+  font-size: 18px;
+}
+
+.footer {
+  margin-top: 2rem;
+  background: var(--color-bg-secondary);
+}
